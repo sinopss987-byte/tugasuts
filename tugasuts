@@ -1,0 +1,714 @@
+import java.util.Scanner;
+
+public class Soal1 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        String kalimat;
+
+        System.out.print("Masukkan kalimat: ");
+        kalimat = input.nextLine();
+
+        System.out.print("Hasil terbalik: ");
+        for (int i = kalimat.length() - 1; i >= 0; i--) {
+            System.out.print(kalimat.charAt(i));
+        }
+        System.out.println();
+    }
+}
+
+import java.util.Scanner;
+
+public class Soal2 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        String kalimat;
+        char huruf;
+        int jumlah = 0;
+
+        System.out.print("Masukkan kalimat: ");
+        kalimat = input.nextLine();
+
+        System.out.print("Masukkan huruf yang dicari: ");
+        huruf = input.next().charAt(0);
+
+        for (int i = 0; i < kalimat.length(); i++) {
+            if (kalimat.charAt(i) == huruf) {
+                jumlah++;
+            }
+        }
+
+        System.out.println("Jumlah huruf " + huruf + " adalah: " + jumlah);
+    }
+}
+
+import java.util.Scanner;
+
+public class Soal3 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        String kalimat;
+        int jumlah;
+
+        System.out.print("Masukkan kalimat: ");
+        kalimat = input.nextLine();
+
+        jumlah = kalimat.length();
+
+        System.out.println("Jumlah karakter: " + jumlah);
+    }
+}
+
+public class Soal4 {
+    public static void main(String[] args) {
+        for (int i = 1; i <= 6; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print(i);
+            }
+            System.out.println(); // ditambahkan untuk keterbacaan
+        }
+    }
+}
+
+public class Soal5 {
+    public static void main(String[] args) {
+        for (int i = 6; i >= 1; i--) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print(i);
+            }
+            System.out.println();
+        }
+    }
+}
+
+public class Soal6 {
+    public static void main(String[] args) {
+        for (int i = 1; i <= 6; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print(j);
+            }
+            System.out.println();
+        }
+    }
+}
+
+public class Soal7 {
+    public static void main(String[] args) {
+        for (int i = 6; i >= 1; i--) {
+            for (int j = i; j >= 1; j--) {
+                System.out.print(j);
+            }
+            System.out.println();
+        }
+    }
+}
+
+public class Soal8 {
+    public static void main(String[] args) {
+        for (int i = 1; i <= 3; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print(i);
+            }
+            System.out.println();
+        }
+
+        for (int i = 1; i <= 4; i++) {
+            System.out.print(i);
+        }
+        System.out.println();
+
+        for (int i = 1; i <= 5; i++) {
+            System.out.print(5);
+        }
+        System.out.println();
+
+        for (int i = 1; i <= 6; i++) {
+            System.out.print(i);
+        }
+        System.out.println();
+    }
+}
+
+public class Soal9 {
+    public static void main(String[] args) {
+        for (int i = 1; i <= 2; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print(i);
+            }
+            System.out.println();
+        }
+
+        for (int i = 1; i <= 3; i++) {
+            System.out.print(i);
+        }
+        System.out.println();
+
+        for (int i = 1; i <= 4; i++) {
+            System.out.print(4);
+        }
+        System.out.println();
+
+        for (int i = 1; i <= 5; i++) {
+            System.out.print(i);
+        }
+        System.out.println();
+
+        for (int i = 1; i <= 6; i++) {
+            System.out.print(6);
+        }
+        System.out.println();
+    }
+}
+
+public class Soal10 {
+    public static void main(String[] args) {
+        for (int i = 6; i >= 1; i--) {
+            System.out.print(i);
+        }
+        System.out.println();
+
+        for (int i = 1; i <= 5; i++) {
+            System.out.print(5);
+        }
+        System.out.println();
+
+        for (int i = 4; i >= 1; i--) {
+            System.out.print(i);
+        }
+        System.out.println();
+
+        for (int i = 1; i <= 3; i++) {
+            System.out.print(3);
+        }
+        System.out.println();
+
+        for (int i = 2; i >= 1; i--) {
+            System.out.print(i);
+        }
+        System.out.println();
+
+        for (int i = 1; i <= 1; i++) {
+            System.out.print(1);
+        }
+        System.out.println();
+    }
+}
+
+public class Soal11 {
+    public static void main(String[] args) {
+        for (int i = 1; i <= 6; i++) {
+            System.out.print(6);
+        }
+        System.out.println();
+
+        for (int i = 1; i <= 5; i++) {
+            System.out.print(i);
+        }
+        System.out.println();
+
+        for (int i = 1; i <= 4; i++) {
+            System.out.print(4);
+        }
+        System.out.println();
+
+        for (int i = 1; i <= 3; i++) {
+            System.out.print(i);
+        }
+        System.out.println();
+
+        for (int i = 1; i <= 2; i++) {
+            System.out.print(2);
+        }
+        System.out.println();
+
+        System.out.print(1);
+        System.out.println();
+    }
+}
+
+public class Soal12 {
+    public static void main(String[] args) {
+        System.out.print("1");
+        System.out.println();
+
+        for (int i = 1; i <= 2; i++) {
+            System.out.print("2");
+        }
+        System.out.println();
+
+        for (int i = 1; i <= 4; i++) {
+            System.out.print(i);
+        }
+        System.out.println();
+
+        for (int i = 1; i <= 5; i++) {
+            System.out.print("5");
+        }
+        System.out.println();
+
+        for (int i = 1; i <= 6; i++) {
+            System.out.print("6");
+        }
+        System.out.println();
+
+        for (int i = 1; i <= 7; i++) {
+            System.out.print(i);
+        }
+        System.out.println();
+
+        for (int i = 1; i <= 8; i++) {
+            System.out.print(i);
+        }
+        System.out.println();
+
+        for (int i = 1; i <= 9; i++) {
+            System.out.print("9");
+        }
+        System.out.println();
+    }
+}
+
+public class Soal13 {
+    public static void main(String[] args) {
+        for (int i = 1; i <= 2; i++) {
+            System.out.print("1");
+        }
+        System.out.println();
+
+        System.out.print("2");
+        System.out.println();
+
+        for (int i = 1; i <= 3; i++) {
+            System.out.print("3");
+        }
+        System.out.println();
+
+        for (int i = 1; i <= 4; i++) {
+            System.out.print("4");
+        }
+        System.out.println();
+
+        for (int i = 1; i <= 5; i++) {
+            System.out.print(i);
+        }
+        System.out.println();
+
+        for (int i = 1; i <= 6; i++) {
+            System.out.print(i);
+        }
+        System.out.println();
+
+        for (int i = 1; i <= 7; i++) {
+            System.out.print("7");
+        }
+        System.out.println();
+
+        for (int i = 1; i <= 8; i++) {
+            System.out.print("8");
+        }
+        System.out.println();
+
+        for (int i = 1; i <= 9; i++) {
+            System.out.print(i);
+        }
+        System.out.println();
+    }
+}
+
+public class Soal14 {
+    public static void main(String[] args) {
+        for (int i = 1; i <= 8; i++) {
+            System.out.print("8");
+        }
+        System.out.println();
+
+        for (int i = 1; i <= 7; i++) {
+            System.out.print("7");
+        }
+        System.out.println();
+
+        for (int i = 6; i >= 1; i--) {
+            System.out.print(i);
+        }
+        System.out.println();
+
+        for (int i = 5; i >= 1; i--) {
+            System.out.print(i);
+        }
+        System.out.println();
+
+        for (int i = 1; i <= 4; i++) {
+            System.out.print("4");
+        }
+        System.out.println();
+
+        for (int i = 1; i <= 3; i++) {
+            System.out.print("3");
+        }
+        System.out.println();
+
+        for (int i = 2; i >= 1; i--) {
+            System.out.print(i);
+        }
+        System.out.println();
+    }
+}
+
+public class Soal15 {
+    public static void main(String[] args) {
+        for (int i = 8; i >= 1; i--) {
+            System.out.print(i);
+        }
+        System.out.println();
+
+        for (int i = 7; i >= 1; i--) {
+            System.out.print(i);
+        }
+        System.out.println();
+
+        for (int i = 1; i <= 6; i++) {
+            System.out.print("6");
+        }
+        System.out.println();
+
+        for (int i = 1; i <= 5; i++) {
+            System.out.print("5");
+        }
+        System.out.println();
+
+        for (int i = 4; i >= 1; i--) {
+            System.out.print(i);
+        }
+        System.out.println();
+
+        for (int i = 3; i >= 1; i--) {
+            System.out.print(i);
+        }
+        System.out.println();
+
+        for (int i = 1; i <= 2; i++) {
+            System.out.print("2");
+        }
+        System.out.println();
+
+        System.out.print("1");
+        System.out.println();
+    }
+}
+
+import java.util.Scanner;
+
+public class Soal26 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int awal, akhir;
+
+        System.out.print("Masukkan tahun awal: ");
+        awal = input.nextInt();
+
+        System.out.print("Masukkan tahun akhir: ");
+        akhir = input.nextInt();
+
+        System.out.println("Tahun kabisat yang angka terakhirnya 4:");
+        for (int tahun = awal; tahun <= akhir; tahun++) {
+            if (tahun % 10 == 4 &&
+                tahun % 4 == 0 &&
+                (tahun % 100 != 0 || tahun % 400 == 0)) {
+                System.out.print(tahun + " ");
+            }
+        }
+
+        input.close();
+    }
+}
+
+import java.util.Scanner;
+
+public class Soal27 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int awal, akhir;
+
+        System.out.print("Masukkan tahun awal: ");
+        awal = input.nextInt();
+
+        System.out.print("Masukkan tahun akhir: ");
+        akhir = input.nextInt();
+
+        System.out.println("Tahun kabisat yang angka terakhirnya 6:");
+        for (int tahun = awal; tahun <= akhir; tahun++) {
+            if (tahun % 10 == 6 &&
+                tahun % 4 == 0 &&
+                (tahun % 100 != 0 || tahun % 400 == 0)) {
+                System.out.print(tahun + " ");
+            }
+        }
+
+        input.close();
+    }
+}
+
+import java.util.Scanner;
+
+public class Soal28 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int awal, akhir;
+
+        System.out.print("Masukkan tahun awal: ");
+        awal = input.nextInt();
+
+        System.out.print("Masukkan tahun akhir: ");
+        akhir = input.nextInt();
+
+        System.out.println("Tahun kabisat yang angka terakhirnya 8:");
+        for (int tahun = awal; tahun <= akhir; tahun++) {
+            if (tahun % 10 == 8 &&
+                tahun % 4 == 0 &&
+                (tahun % 100 != 0 || tahun % 400 == 0)) {
+                System.out.print(tahun + " ");
+            }
+        }
+
+        input.close();
+    }
+}
+
+import java.util.Scanner;
+
+public class Soal29 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int awal, akhir;
+
+        System.out.print("Masukkan angka awal: ");
+        awal = input.nextInt();
+
+        System.out.print("Masukkan angka akhir: ");
+        akhir = input.nextInt();
+
+        System.out.println("Bilangan yang habis dibagi 3:");
+        for (int angka = awal; angka <= akhir; angka++) {
+            if (angka % 3 == 0) {
+                System.out.print(angka + " ");
+            }
+        }
+
+        input.close();
+    }
+}
+
+import java.util.Scanner;
+
+public class Soal30 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int awal, akhir;
+
+        System.out.print("Masukkan angka awal: ");
+        awal = input.nextInt();
+
+        System.out.print("Masukkan angka akhir: ");
+        akhir = input.nextInt();
+
+        System.out.println("Bilangan yang habis dibagi 4:");
+        for (int angka = awal; angka <= akhir; angka++) {
+            if (angka % 4 == 0) {
+                System.out.print(angka + " ");
+            }
+        }
+
+        input.close();
+    }
+}
+
+import java.util.Scanner;
+
+public class Soal31 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int awal, akhir;
+
+        System.out.print("Masukkan angka awal: ");
+        awal = input.nextInt();
+
+        System.out.print("Masukkan angka akhir: ");
+        akhir = input.nextInt();
+
+        System.out.println("Bilangan yang habis dibagi 5:");
+        for (int angka = awal; angka <= akhir; angka++) {
+            if (angka % 5 == 0) {
+                System.out.print(angka + " ");
+            }
+        }
+
+        input.close();
+    }
+}
+
+import java.util.Scanner;
+
+public class Soal32 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int awal, akhir;
+
+        System.out.print("Masukkan angka awal: ");
+        awal = input.nextInt();
+
+        System.out.print("Masukkan angka akhir: ");
+        akhir = input.nextInt();
+
+        System.out.println("Bilangan yang habis dibagi 6:");
+        for (int angka = awal; angka <= akhir; angka++) {
+            if (angka % 6 == 0) {
+                System.out.print(angka + " ");
+            }
+        }
+
+        input.close();
+    }
+}
+
+import java.util.Scanner;
+
+public class Soal33 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int awal, akhir;
+
+        System.out.print("Masukkan angka awal: ");
+        awal = input.nextInt();
+
+        System.out.print("Masukkan angka akhir: ");
+        akhir = input.nextInt();
+
+        System.out.println("Bilangan yang habis dibagi 7:");
+        for (int angka = awal; angka <= akhir; angka++) {
+            if (angka % 7 == 0) {
+                System.out.print(angka + " ");
+            }
+        }
+
+        input.close();
+    }
+}
+
+public class Soal34 {
+    public static void main(String[] args) throws InterruptedException {
+        for (int ulang = 1; ulang <= 2; ulang++) {
+            for (int i = 1; i <= 20; i++) {
+                for (int j = 1; j <= i; j++) {
+                    System.out.print(" ");
+                }
+                System.out.println("0");
+                Thread.sleep(100);
+            }
+            System.out.println();
+        }
+    }
+}
+
+public class Soal35 {
+    public static void main(String[] args) throws InterruptedException {
+        for (int i = 1; i <= 20; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print(" ");
+            }
+            System.out.println("0");
+            Thread.sleep(100);
+        }
+
+        for (int i = 19; i >= 1; i--) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print(" ");
+            }
+            System.out.println("0");
+            Thread.sleep(100);
+        }
+    }
+}
+
+public class Soal36 {
+    public static void main(String[] args) throws InterruptedException {
+        for (int ulang = 1; ulang <= 2; ulang++) {
+            for (int i = 20; i >= 1; i--) {
+                for (int j = 1; j <= i; j++) {
+                    System.out.print(" ");
+                }
+                System.out.println("0");
+                Thread.sleep(100);
+            }
+            System.out.println();
+        }
+    }
+}
+
+public class Soal37 {
+    public static void main(String[] args) throws InterruptedException {
+        for (int i = 20; i >= 1; i--) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print(" ");
+            }
+            System.out.println("0");
+            Thread.sleep(100);
+        }
+
+        for (int i = 2; i <= 20; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print(" ");
+            }
+            System.out.println("0");
+            Thread.sleep(100);
+        }
+    }
+}
+
+public class Soal38 {
+    public static void main(String[] args) throws InterruptedException {
+        for (int ulang = 1; ulang <= 2; ulang++) {
+            for (int i = 1; i <= 20; i++) {
+                for (int j = 1; j <= i; j++) {
+                    System.out.println();
+                }
+                System.out.println("0");
+                Thread.sleep(100);
+            }
+            System.out.println();
+        }
+    }
+}
+
+public class Soal39 {
+    public static void main(String[] args) throws InterruptedException {
+        for (int i = 1; i <= 20; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.println();
+            }
+            System.out.println("0");
+            Thread.sleep(100);
+        }
+
+        for (int i = 19; i >= 1; i--) {
+            for (int j = 1; j <= i; j++) {
+                System.out.println();
+            }
+            System.out.println("0");
+            Thread.sleep(100);
+        }
+    }
+}
+
+public class Soal40 {
+    public static void main(String[] args) throws InterruptedException {
+        for (int ulang = 1; ulang <= 2; ulang++) {
+            for (int i = 20; i >= 1; i--) {
+                for (int j = 1; j <= i; j++) {
+                    System.out.println();
+                }
+                System.out.println("0");
+                Thread.sleep(100);
+            }
+            System.out.println();
+        }
+    }
+}
